@@ -10,6 +10,7 @@
 
 .navbar-bg{
     background: var(--navbar-bg);
+    padding: 1rem 1rem 0;
 }
 
 .nav-zindex{
@@ -55,7 +56,7 @@
 }
 .category-grid{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr) ) ;
+    grid-template-columns: repeat(auto-fit, minmax(12.5rem, 1fr) ) ;
     gap:10px;
 }
 
