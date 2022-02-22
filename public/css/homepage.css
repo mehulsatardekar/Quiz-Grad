@@ -6,6 +6,9 @@
     --ex-dark-blue : #3529ff;
 }
 
+body{
+    overflow: hidden;
+}
 .navbar-bg{
     background: var(--navbar-bg);
     padding: 1rem 1rem 0rem;
@@ -55,6 +58,10 @@
     
     .home-banner{
         display: none;
+    }
+
+    .home-txt{
+        font-size: 1.3em;
     }
 
     .home-txt-container{
